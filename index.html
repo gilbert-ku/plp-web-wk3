@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Registration Form</title>
+</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+   <form>
+        <label >Name:</label>
+        <input type="text"  name="name" required><br><br>
+
+        <label >Date of Birth:</label>
+        <input type="date"  name="dob" required><br><br>
+
+        <label >Gender:</label>
+        <input type="radio" id="male" value="male" required>
+        <label >Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label >Female</label><br><br>
+
+        <label >Address:</label>
+        <textarea  name="address" required></textarea><br><br>
+
+        <label >Telephone:</label>
+        <input type="tel" name="telephone" required><br><br>
+
+        <label >Email Address:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label >Course:</label>
+        <select  name="course" required>
+            <option value="">Select a course</option>
+            <option value="computer-science">Computer Science</option>
+            <option value="business">Business</option>
+            <option value="engineering">Engineering</option>
+        </select><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Cancel">
+   </form>
+</body>
+</html>
